@@ -12,7 +12,8 @@ header a {
 .first-page {
     height: 908px;
     width: 100%;
-    background: radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    background-image: url("../photo/start-screen-gradient-background.png");
+    background-size: cover;
 }
 
 header {
@@ -213,6 +214,20 @@ section {
     letter-spacing: 1px;
 }
 
+.third-page > .pets-active > button {
+    padding: 15px 45px;
+    gap: 10px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    font-family: "Georgia", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1px;
+}
+
 .third-page p {
     color: #545454;
     text-align: center;
@@ -271,6 +286,12 @@ section {
     width: 100%;
 }
 
+.help-1-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 .help-item {
     display: flex;
     align-items: center;
@@ -299,6 +320,7 @@ section {
 .flex {
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 
 .bank {
@@ -318,84 +340,106 @@ section {
     letter-spacing: 2.1px;
     width: 300px;
 }
-    .fifth-page h5 {
-        color: #545454;
-        font-family: "Georgia", sans-serif;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 110%;
-        letter-spacing: 0.9px;
-        width: 309px;
-        height: 17px;
-    }
-    .fifth-page span{
-        display: flex;
-        align-items: center;
-        padding: 10px 15px;
-        gap: 10px;
-        border-radius: 9px;
-        background:#F1CDB3;
-        color:#545454;
-        font-family: "Georgia", sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 115%; /* 23px */
-        letter-spacing: 1.2px;
-        width: 349px;
-    }
-    .fifth-page h6{
-        color: #B2B2B2;
 
-        font-family: "Arial",sans-serif;
-        font-size: 12px;
-        font-style: italic;
-        font-weight: 400;
-        line-height: 18px;
-    }
-    footer{
-        height: 350px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        background: radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
-        position: relative;
-    }
-    .text-foot h3{
-        color: #FFf;
-        font-family: "Georgia",sans-serif;
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 130%; /* 45.5px */
-        letter-spacing: 2.1px;
-        width: 280px;
-        height: 90px;
-    }
-    .text-foot p{
-        color:#F1CDB3;
-        font-family: "Georgia",sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 115%; /* 23px */
-        letter-spacing: 1.2px;
-        width: 260px;
-    }
-    .text-foot{
-     display: flex;
-        flex-direction: column;
-        gap: 40px;
-        width: 500px;
-        margin-left: 40px;
-    }
-    .email{
-        display: flex;
-        gap: 20px;
-    }
-    footer img{
+.fifth-page h5 {
+    color: #545454;
+    font-family: "Georgia", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.9px;
+    width: 309px;
+    height: 17px;
+}
+
+.fifth-page .bn {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+    border-radius: 9px;
+    background: #F1CDB3;
+    color: #545454;
+    font-family: "Georgia", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+    width: 349px;
+}
+
+.fifth-page h6 {
+    color: #B2B2B2;
+
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+footer {
+    background:url("../photo/footer-gradient-background.png");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.text-foot h3 {
+    color: #FFf;
+    font-family: "Georgia", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+    width: 280px;
+    height: 90px;
+}
+
+.text-foot p {
+    color: #F1CDB3;
+    font-family: "Georgia", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+    width: 260px;
+}
+
+.text-foot {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 500px;
+    margin-left: 40px;
+}
+
+.email {
+    display: flex;
+    gap: 20px;
+}
+
+.email-1 {
+    display: flex;
+    gap: 20px;}
+
+    footer img {
         position: absolute;
         bottom: 0;
         right: 40px;
+    }
+
+    .pets-active {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
     }

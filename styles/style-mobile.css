@@ -1,34 +1,236 @@
-@media screen and (max-width: 480px){
-header{
-    padding: 30px 0 0 10px;
-}
-    nav{
-    display: none;
-}
-    .photo img{
+@media screen and (max-width: 300px) {
+    header {
+        padding: 30px 0 0 10px;
+    }
+
+    nav {
+        display: none;
+    }
+    .first-page{
+        background-image: url("../photo/start-screen-gradient-background -mob.png");
+        background-size: cover;
+    }
+    .photo img {
         height: 271px;
         width: 260px;
         margin-left: 50px;
         margin-top: 69px;
     }
-    section{
+
+    section {
         flex-direction: column;
         justify-content: center;
         height: 823px;
     }
-    .first-text{
+
+    .first-text {
         margin-top: 60px;
         margin-left: 0;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    .first-text p{
+
+    .first-text p {
         width: 300px;
     }
-    .first-text h2{
+
+    .first-text h2 {
         font-size: 25px;
         width: 200px;
         margin-top: 60px;
     }
+
+    .second-page {
+        width: 100%;
+        height: 974px;
+    }
+
+    .inside-first img {
+        width: 260px;
+        height: 353px;
+        padding: 0;
+    }
+
+    .inside-first {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 42px;
+    }
+
+    .inside-first h2 {
+        font-size: 25px;
+        width: 300px;
+        margin-top: 42px;
+    }
+
+    .text {
+        text-align: center;
+        width: 300px;
+        gap: 25px;
+    }
+
+    .inside-first p {
+        width: 270px;
+        margin-left: 20px;
+    }
+
+    .pets {
+        display: none;
+    }
+
+    .third-page p {
+        width: 300px;
+        font-size: 25px;
+    }
+
+    .pets-active {
+        position: absolute;
+        top: 148px;
+    }
+
+    .main-b {
+        position: absolute;
+        bottom: 84px;
+    }
+
+    .third-page {
+        height: 791px;
+    }
+
+    .fourth-page {
+        height: 745px;
+        margin: 0;
+        justify-content: flex-start;
+        flex-direction: row;
+        display: flex;
+        align-items: baseline;
+        align-content: flex-start;
+    }
+
+    .pets {
+        flex-direction: column;
+    }
+
+    .help-item svg {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .help-1 {
+        flex-direction: column;
+        width: 50%;
+        gap: 30px;
+    }
+
+    .help-1-2 {
+        flex-direction: column;
+        width: 50%;
+        gap: 30px;
+    }
+
+    .help-item h4 {
+        font-size: 15px;
+    }
+
+    .fourth-page h2 {
+        margin-bottom: 42px;
+    }
+
+    .fifth-page {
+        height: 542px;
+        align-items: center;
+    }
+
+    .flex {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .fifth-page img {
+        width: 260px;
+        height: 135px;
+    }
+
+    .bank {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .bank h2 {
+        font-size: 25px;
+        height: 64px;
+        width: 230px;
+
+    }
+
+    .bank h5 {
+        width: 273px;
+        height: 24px;
+        letter-spacing: 0;
+    }
+
+    .fifth-page .bn p {
+        width: 206px;
+        height: 17px;
+        font-size: 15px;
+    }
+
+    .fifth-page .bn {
+        text-align: center;
+        width: 281px;
+        height: 43px;
+        font-size: 15px;
+        letter-spacing: 0.9px;
+        gap: 15px;
+
+    }
+
+    .fifth-page h6 {
+        text-align: left;
+        margin-left: 20px;
+    }
+    footer{
+        height: 809px;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        background-image: url("../photo/footer-gradient-background-mob.png");
+        background-size: cover;
+    }
+    .text-foot h3{
+        font-size: 25px;
+        width: 280px;
+        letter-spacing: 1.5px;
+        height: 64px;
+    }
+    .text-foot{
+        display: flex;
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .email{
+        margin-left: 10px;
+        gap: 15px;
+        text-align: left;
+    }
+    .email-1{
+        margin-left: 40px;
+        text-align: left;
+    }
+    .text-foot p{
+        width: 255px;
+    }
+    footer img{
+        left: 15px;
+        width: 260px;
+        height: 269px;
+    }
+
 }
