@@ -193,6 +193,9 @@
         text-align: left;
         margin-left: 20px;
     }
+    footer h3:nth-child(1){
+        margin-top: 30px;
+    }
     footer{
         height: 809px;
         align-items: flex-start;
